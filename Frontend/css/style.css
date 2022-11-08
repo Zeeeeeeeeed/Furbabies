@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    color: #333335;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+}
+.container{
+    background-color: rgba(245, 243, 243, 0.463);
+    width: 60%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.container .container-left{
+    width: 50%;
+    height: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .container-left .container-form{
+    width: 70%;
+    height: 90%;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-form .container-one{
+    width: 100%;
+    height: 15%;
+
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.container-form .container-two{
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+.container-form .container-two button{
+    font-family: 'Poppins', sans-serif;
+    color: #333335;
+    font-weight: 500;
+    height: 40%;
+    width: 80%;
+    border: 1px solid #333335;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.container-form .container-two button img{
+    height: 20px;
+    width: 20px;
+    border: none;
+}
+.container-form .container-two .container-or{
+    width: 100%;
+    height: 20%;
+   color: #eee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+}
+.container-form .container-two .container-or hr{
+    width: 60px;
+   height: 1px;
+   border: none;
+   background-color: #bcbcbc;
+   color: #eee;
+}
+
+.container-form .container-three{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.container-form .container-three label{
+   font-family: 'Poppins', sans-serif;
+   font-size: 13px;
+   font-weight: 300;
+}
+.container-form .container-three input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    border: none;
+    text-align: center;
+    height: 30px;
+    width: 250px;
+    background-color: transparent;
+    border-left: 1px solid #333335;
+    border-bottom: 1px solid #333335;
+    border-radius: 3px;
+ }
+.container-form .container-four{
+    width: 100%;
+    height: 10%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.container-form .container-four .container-left-four{
+    width: 50%;
+    height: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+.container-form .container-four .container-right-four{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+}
+.container-form .container-five{
+    width: 100%;
+    height: 15%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 800; */
+}
+.container-form .container-five button{
+    width: 90%;
+    height: 40px;
+    color: #333335;
+   background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    border: 1px solid #333335;
+}
+
+.container-form .container-six{
+    width: 100%;
+    height: 10%;  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.container .container-right{
+    width: 50%;
+    height: 100%;
+
+}
+.container .container-right img{
+    width: 520px;
+    height: 100%;
+}
